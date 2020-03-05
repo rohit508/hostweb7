@@ -1,0 +1,885 @@
+@font-face{
+    src: url(../font/Ubunt-Regular.ttf);
+    font-family: style;
+}
+
+
+body{
+    width: 100%;
+}
+    header{
+        background-image:url('../image/Blog-Engraving-techniques.jpg') ;
+        height: 100vh;
+        background-size: cover; 
+        background-position: center center;
+         position: relative;
+
+    }
+    .manu{
+        float: right;
+        list-style: none;
+        margin-top: 30px;
+        display: flex;
+       
+    }
+    .manu ul li{
+        display: inline-block;
+    }
+    .manu ul li a{
+        color: rgb(230, 0, 0);
+        border: 1px solid black;
+        text-decoration:none;
+        padding: 5px 20px;
+        font-family: style;
+        font-size: 30px;
+        font-weight: bold;
+        margin-top: 50px;
+        margin-right: 20px;
+        letter-spacing: 3px;
+        
+      
+    }
+    .manu ul li a:hover{
+        background:white;
+        color:rgb(230, 0, 0);
+    }
+.left{
+width:500px;
+height:10px ;
+float: left;
+padding: 20px;
+color:rgb(230, 0, 0);
+font-size: 30px;
+text-transform: uppercase;
+margin-top: 20px;
+}
+
+
+.left h1{
+font-family: style;
+
+}
+.text{
+    position:absolute;
+    width: 600px;
+    height: 300px;
+    margin: 20em 20em;
+    text-align: center;
+}
+.text h1{
+    font-family: style;
+    text-align: center;
+    color:rgb(230, 0, 0);
+    text-transform: uppercase;
+    font-size: 70px;
+    letter-spacing: 10px;
+}
+
+.text a{
+    border: 1px solid black;
+    letter-spacing: 3px;
+    padding: 10px 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-top: 20px;
+    display:inline-block;
+    color:black;
+    font-weight: bold;
+    font-family: style;
+}
+.text a:hover{
+    background-color: white;
+}
+
+
+
+#contanier{
+    width: 100%;
+    height: 300px;
+    background-color: wheat;
+} 
+
+
+
+#contanier ul li{
+    display: inline-block;
+    padding: 100px;
+    margin-left: 80px;
+    font-size: 20px;
+    
+}
+
+#contanier ul li a{
+
+text-decoration: none;
+color:rgb(230, 0, 0);
+font-family: style;
+font-size: 25px;
+
+}
+/* #text a:hover{
+    background-color:white;
+    color:rgb(230, 0, 0);
+padding: 10px;
+    border-radius: 800px; */
+} 
+
+
+#manu{
+    width: 100%;
+    height: 100px;
+    background-color:gainsboro;
+    
+
+}
+
+ #manu ul li  a{
+    font-family: style;
+    text-decoration: none;
+   margin-top: 100px;
+   font-size: 30px;
+   color:rgb(230, 0, 0);
+border-radius: 8px;
+}
+
+
+#manu ul li{
+    text-decoration:none;
+    display: inline-block;
+    padding: 20px 25px;
+    margin-top: 20px;
+    font-family: style;
+    font-size: 25px;
+    float: right;
+
+     
+    
+  
+}
+
+
+#manu ul li a:hover{
+    background:white;
+    color:rgb(230, 0, 0);
+    padding: 10px;
+}
+
+
+.back{
+    
+    background-image: url('../image/secret-santa-gift-ideas.jpg');
+    float: left;
+    height: 550px;
+    background-size: cover; 
+    background-position: center;
+     position: relative;
+
+}
+.back h3{
+margin-top: 200px;
+color:orange;
+font-size: 100px;
+font-family: style;
+
+
+}
+
+
+.back p{
+    margin-top: 20px;
+    color: orange;
+    font-size: 40px;
+    font-family: style;
+margin-left: 100px;}
+
+
+
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+
+}
+body{
+    background-color: whitesmoke;
+}
+#bar{
+    position: absolute;
+    top: 8%;
+    left: 15%;
+    /* background-color: white; */
+    transform: translate(50%,50%);
+}
+#bar input{
+    outline: none;
+    border: 3px solid black;
+    height: 40px;
+    width: 300px;
+    border-radius: 50px;
+    padding: 0px 10px;
+    font-size: 20px;
+}
+#bar a{
+    border: 3px solid black;
+    background-color:white;
+    height: 40px;
+    width: 300px;
+    border-radius: 50px;
+    padding: 11px 20px;
+    
+}
+ .number p{
+    
+    color:white;
+    position: absolute;
+    top: 30%;
+    right: 2%;
+    text-align: right;
+    font-family: style;
+     font-size: 30px;
+}
+.number p{
+    height: 100px;
+    width: 1000px;
+
+}  
+
+.container2  tr td{
+    padding: 80px 10px 100px 100px;
+
+}
+
+
+.container2 table tr td img{
+    height: 200px;
+    width: 200px;
+    border: chocolate 2px solid;
+    opacity: 5;
+}
+
+.container2 table tr td img:hover{
+
+    opacity: 0.5;
+
+}
+
+.container2 h1{
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+
+.container2 p{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 40px;
+}
+
+
+
+
+/* .head{ 
+    font-size: 40px;
+   margin-left: 100px;
+   margin-top: 700px;
+   background-color: rgb(230, 0, 0);
+   width: 100px ;
+   text-transform: uppercase; */
+
+}
+
+
+
+
+.container h4{
+    text-align: left;
+    margin-left: 0px;
+    margin-top: 200px;
+    padding: 10px;
+    background-color: red;
+    width: 30%;
+    color: white;
+}
+.product img{
+    text-align: left;
+    margin-left: 0px;
+   width: 30%;
+   height: 30%;
+   padding: 20px;
+
+
+}
+
+
+
+#manuc{
+    width: 100%;
+    height: 100px;
+    background-color:gainsboro;
+}
+
+#manu1 ul li  a{
+    font-family: style;
+    text-decoration: none;
+    padding: 10px;
+   margin-top: 100px;
+   font-size: 30px;
+   color:rgb(230, 0, 0);
+   background-color: gainsboro;
+border-radius: 8px;
+}
+
+
+#manu1 ul li{
+    text-decoration:none;
+    display: inline-block;
+    padding: 20px 25px;
+    margin-top: 20px;
+    font-family: style;
+    font-size: 25px;
+    float: right;
+
+     
+    
+  
+}
+
+
+#manu1 ul li a:hover{
+    background:white;
+    color:rgb(230, 0, 0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#right3{
+    color:rgb(230, 0, 0);
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    text-align: left;
+    font-family: style;
+     font-size: 20px;
+
+}
+
+
+#right3 h1{
+    color:rgb(230, 0, 0);
+    font-size: 50px;
+    margin-right: 100px;
+    font-family: style;
+}
+
+
+
+
+#right3 p{
+    color:rgb(230, 0, 0);
+    font-size: 25px;
+    margin-left: 100px;
+    font-family: style;
+}
+
+#rohit{
+    margin-top: 200px;
+    margin-left: 100px;
+    width: 200px;
+    height: 800px;
+    padding: 10px;
+}
+
+
+
+
+
+#form h1{
+font-family: style;
+font-size: 60px;
+color: rgb(230, 0, 0);
+
+}
+
+#form p{
+    font-family: style;
+    font-size: 30px;
+    color: rgb(230, 0, 0);
+    
+}
+#form p input{
+    border: 2px solid black;
+    height: 40px;
+    width: 300px;
+    border-radius: 10px;
+    padding: 0px 10px;
+    font-size: 30px;
+    outline: none;
+    
+
+   
+}
+#form textarea{
+    border: 2px solid black;
+    padding: 0px 20px;
+    outline: none;
+    font-size: 30px;
+
+}
+
+
+#form a{
+    border: 2px solid black;
+    text-decoration: none;
+    height: 50px;
+    width: 300px;
+    border-radius: 500px;
+    padding: 10px 10px;
+    color: rgb(230, 0, 0);
+}
+
+
+
+#form a:hover{
+    background-color: white;
+    color: rgb(230, 0, 0);
+
+}
+
+
+
+
+
+
+
+.colr{
+        width: 100%;
+        height: 200px;
+        background-color: wheat;
+    }
+
+
+
+
+    .colr p {
+        display: inline-block;
+        padding: 50px;
+        margin-left: 150px;
+        color: white;
+        font-size: 30px;
+    
+    }
+    .colr p a{
+        color:rgb(230, 0, 0);
+        text-decoration: none;
+        font-family: style;
+
+    }
+     /* .colr p a:hover{
+        background-color:white;
+        color:rgb(230, 0, 0);
+padding: 10px;
+        border-radius: 800px;
+    } 
+
+ */
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+.manu5{
+    background-color: gainsboro;
+    width: 100%;
+    height: 100px;
+    
+
+}
+
+.manu5 ul li{
+    display: inline-block;
+    font-family: style;
+    float: right;
+    margin-top: 5px;
+    padding: 20px;
+    font-size: 30px;
+
+}
+
+
+
+.manu5 ul li a{
+    display: inline-block;
+    font-family: style;
+    float: right;
+    padding: 20px;
+    font-size: 30px;
+    text-decoration: none;
+    border-radius: 10px;
+    color: rgb(230, 0, 0);
+    padding: 10px;
+
+}
+
+
+
+
+
+
+
+.manu5 a:hover{
+    background-color: white;
+    color: rgb(230, 0, 0);
+}
+
+.hed{
+    text-align: center;
+    background-color: gray;
+    color: black;
+    width: 40%;
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.PERSONAL{
+    float: left;
+    border: black 3px solid;
+    margin-top: 20px;
+    padding: 10px;
+    width: 40%;
+    height: 50%;
+margin-left: 20px;
+}
+
+.PERSONAL h2{
+ margin-left: 100px;
+ font-size: 20px;
+ font-family: style;
+}
+ 
+  
+ .PERSONAL h4{
+    margin-left: 60px;
+    font-size: 15px;
+    font-family: style;
+    font-family: style;
+     
+
+ }
+ .PERSONAL p { 
+     font-size: 30px;
+     padding: 30px;
+
+ }
+ .PERSONAL input{
+     width: 50%;
+     height: 30px;
+     margin: 0px;
+     outline: none;
+   font-size: 20px;
+ }
+#btn{
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: black 2px solid;
+    text-align: center;
+    font-size: 30px;
+    width: 30%;
+     height: 30px;
+
+    
+
+}
+
+
+#btn:hover{
+    color: rgb(230, 0, 0);
+    background-color: white;
+}
+
+
+
+
+#btn a{
+text-decoration: none;
+color:rgb(230, 0, 0);
+}
+
+
+.right8 h1{
+    font-size: 50px;
+    margin-left: 50%;
+    margin-top: 1px;
+    background-color: gray;
+    width: 500px;
+   
+}
+
+.right8 p{
+    font-size: 50px;
+    margin-left: 50%;
+    margin-top: 20px;
+}
+.right8 a{
+
+    font-size: 50px;
+    margin-left: 50%;
+    margin-top: 30px;
+    text-decoration: none;
+    border-radius: 10px;
+    border: black solid 2px;
+   color:rgb(230, 0, 0);
+    
+}
+
+
+.btn2{
+    margin-top: 30px;
+    text-decoration: none;
+    margin-left: 30%;
+    
+}
+
+.right8 a:hover{
+    background-color: white;
+    
+}
+
+.black{
+    background-color: black;
+    margin-top: 100px;
+width: 100%;
+height: 100px;
+
+}
+
+
+
+.manu6{
+    width: 100%;
+    height: 100px;
+    background-color:gainsboro;
+} 
+.manu6 ul li{
+    text-decoration:none;
+    display: inline-block;
+    padding: 20px;
+    font-size: 30px;
+    margin-top: 20px;
+    float: right;
+    border-radius: 10px;
+}
+
+.manu6 ul li a{
+    text-decoration:none;
+    color :rgb(230, 0, 0);
+    font-family: style;
+    font-size: 30px;
+    border-radius: 10px;
+    padding: 10px;
+
+
+}
+
+
+.manu6 a:hover{
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#cn{
+    font-family: style;
+    margin-left: 40px;
+    margin-top: 80px;
+    font-size: 50px;
+    background-color: gray;
+    color: black;
+    width: 50%;
+}
+
+
+
+.cnca{
+
+    /* border:2px solid black; */
+    margin: 30px;
+    float: left;
+
+
+}
+
+
+
+.cnca h2{
+    font-family: style;
+    margin-left: 40px;
+    margin-top: 10px;
+    font-size: 40px;
+  
+}
+.cnca p {
+    font-family: style;
+    margin-left: 40px;
+    margin-top: 10px;
+    font-size: 40px;
+    color :black;
+    padding: 15px;
+}
+.cnca input{
+    /* font-family: style; */
+    margin-top: 10px;
+    font-size: 40px;
+    outline: none;
+    border-radius: 10px;
+border: black 2px solid;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+           
+
+
+
+
+  
+    
+    
+    .SIGN-IN-right{
+    
+        /* border:2px solid black; */
+        margin: 30px;
+        float: left;
+    
+    
+    }
+    
+    
+    
+    .SIGN-IN-right h2{
+        font-family: style;
+        margin-left: 40px;
+        margin-top: 10px;
+        font-size: 40px;
+        background-color: gray;
+    color: black;
+      
+    }
+    .SIGN-IN-right p {
+        font-family: style;
+        margin-left: 40px;
+        margin-top: 10px;
+        font-size: 40px;
+        padding: 15px;
+    }
+    .SIGN-IN-right input{
+        border-radius: 10px;
+        margin-top: 10px;
+        font-size: 40px;
+        outline: none;
+        border: black 2px solid;
+    }
+
+
+    .bttttn{
+        margin-top: 40px;
+        margin-left: 40%;
+        
+    }
+    .bttttn a{
+        text-decoration: none;
+        color:white;
+        border: black 2px solid;
+        font-size: 30px;
+        border-radius: 10px;
+        background-color:gainsboro;
+      color:  rgb(230, 0, 0);
+      padding: 10px;
+    }
+
+
+
+
+
+
+    .container img{
+        border: black 2px solid;
+        display: inline;
+    padding: 10px;
+    margin: 20px;
+    margin-top: 100%;
+    
+    }
+
+    .container h4,h3,h4{
+        margin: 0px;
+        margin-left: 100px;
+        font-size: 30px;
+       
+        
+    }
+    .container img:hover{
+        opacity: 0.5;}
